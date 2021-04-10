@@ -1,0 +1,150 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow-y: hidden;
+}
+
+.wrapper {
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 35% auto;
+}
+
+.logo{
+	color:#fff;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 52px;
+	margin-top: 0.5em;
+	margin-right: 40px;
+	margin-left: 25%;
+}
+
+
+.info-wrap {
+	/* background-color: #83D5B1; */
+	animation: superBackground 10s infinite;
+}
+
+.info-footer {
+	position: absolute;
+	bottom: -10px;
+	color: #fff;
+	text-align: center;
+	margin-left: 13%;
+}
+
+@keyframes superBackground {
+	0% {background-color: #83D5B1;}
+	25%{background-color:rgb(221, 221, 111);}
+	50%{background-color:rgb(129, 209, 129);}
+	75%{background-color:rgb(214, 140, 140);}
+	100% {background-color: #83D5B1;}
+
+}
+
+.form-wrap {
+	background-color: #F8F8F8;
+}
+
+.login-form{
+	position: relative;
+	background-color: #fff;
+	margin-left: 15vw;
+	margin-right: 15vw;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	text-align: center;
+	border-radius: 10px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	display: block;
+	box-shadow: 0px 0px 10px #dfdfdf;
+}
+
+.signup-form{
+	position: relative;
+	background-color: #fff;
+	margin-left: 15vw;
+	margin-right: 15vw;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	text-align: center;
+	border-radius: 10px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	display: block;
+	box-shadow: 0px 0px 10px #dfdfdf;
+}
+
+.login-option, .signup-option{
+	color: rgb(43, 202, 168);
+	font-size: 14px;
+	cursor: pointer;
+	margin-bottom: -10px;
+	text-decoration: none;
+}
+
+.login-option, .signup-option:hover{
+	text-decoration: underline;
+}
+
+.login-head{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	margin-top: 0px;
+}
+
+.signup-head{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	margin-top: 0px;
+}
+
+.btn{
+	margin-top: 30px;
+	background-color: #6dd1a6;
+	border-radius: 10px;
+	border: 0px #83D5B1;
+	padding: 10px 25px 10px 25px;
+	cursor: pointer;
+	color: white;
+	font-weight: bold;
+	transition: ease all 0.5s;
+	box-shadow: 0px 2px 14px rgb(96, 207, 161);
+}
+
+.btn:hover{
+	background-color: #52c090;
+	color: #fff;
+	transition: ease all 0.5s;
+	box-shadow: 0px 0px 4px rgb(115, 214, 176);
+}
+
+.user_input{
+	width: 70%;
+	padding:10px;
+	margin-top: 10px;
+	border-radius: 50px;
+	border: 0.5px solid #6dd1a6;
+	transition: ease all 0.5s;
+	outline: none;
+}
+
+.user_input:focus{
+	border: 0.5px solid #398363;
+	transition: ease all 0.5s;
+}
+
+.user_input_login{
+	width: 70%;
+	padding:10px;
+	margin-top: 30px;
+	border-radius: 50px;
+	border: 0.5px solid #6dd1a6;
+	transition: ease all 0.5s;
+	outline: none;
+}
+
+.user_input_login:focus{
+	border: 0.5px solid #398363;
+	transition: ease all 0.5s;
+}
